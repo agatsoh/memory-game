@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="row">
+      <h3>
+        Memory Game: Successively try to find the squares with the same colour.
+        You will win after you have matched all the squares.
+      </h3>
+    </div>
+    <div class="row">
+      <div is="card-div" class="card color-hidden"></div>
+      <div is="card-div" class="card color-hidden"></div>
+      <div is="card-div" class="card color-hidden"></div>
+      <div is="card-div" class="card color-hidden"></div>
+    </div>
+    <div class="row">
+      <div is="card-div" class="card color-hidden"></div>
+      <div is="card-div" class="card color-hidden"></div>
+      <div is="card-div" class="card color-hidden"></div>
+      <div is="card-div" class="card color-hidden"></div>
+    </div>
+    <div class="row">
+      <div is="card-div" class="card color-hidden"></div>
+      <div is="card-div" class="card color-hidden"></div>
+      <div is="card-div" class="card color-hidden"></div>
+      <div is="card-div" class="card color-hidden"></div>
+    </div>
+    <div class="row">
+      <div is="card-div" class="card color-hidden"></div>
+      <div is="card-div" class="card color-hidden"></div>
+      <div is="card-div" class="card color-hidden"></div>
+      <div is="card-div" class="card color-hidden"></div>
+    </div>
+    <div class="row">
+      <h1>Attempts: <strong id="attempts"></strong></h1>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
